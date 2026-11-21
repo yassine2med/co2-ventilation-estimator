@@ -1,5 +1,7 @@
 # co2-ventilation-estimator
 
+[![CI](https://github.com/yassine2med/co2-ventilation-estimator/actions/workflows/ci.yml/badge.svg)](https://github.com/yassine2med/co2-ventilation-estimator/actions/workflows/ci.yml) ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab) ![License](https://img.shields.io/badge/license-MIT-8fb08a)
+
 A CO2 sensor in a room tells you more than air quality. The way the curve falls after people leave gives the air change rate, and the plateau while they are inside gives a head count. This tool does both with plain mass balance maths and the standard library only.
 
 ![Screenshot](docs/screenshot.png)
